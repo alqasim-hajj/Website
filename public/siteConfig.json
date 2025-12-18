@@ -2,15 +2,15 @@
     "general": {
         "appName": "Al-Qasim Tours & Travels",
         "contact": {
-            "phone": "8369554402",
-            "phoneLink": "8369554402",
+            "phone": "+918369554402",
+            "phoneLink": "+918369554402",
             "email": "info@sacredjourneys.com",
             "emailLink": "mailto:info@sacredjourneys.com",
             "address": "bail bazar , kalyan , maharashtra",
             "mapsLink": "https://maps.google.com/?q=40.7128,-74.0060"
         },
         "whatsapp": {
-            "phoneNumber": "8369554402",
+            "phoneNumber": "+918369554402",
             "defaultMessage": "Hi, I would like to inquire about Hajj/Umrah packages."
         },
         "logo": {
