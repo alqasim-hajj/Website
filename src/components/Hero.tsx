@@ -46,14 +46,14 @@ const Hero = () => {
                   alt="Sacred Kaaba in Mecca"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-emerald-dark/70 via-emerald-dark/50 to-emerald-dark/80" />
+                <div className="absolute inset-0 bg-gradient-to-b from-emerald-dark/90 via-emerald-dark/70 to-emerald-dark/90" />
               </div>
 
               <div className="absolute inset-0 pattern-overlay opacity-30" />
 
-              <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center pb-32 md:pb-24">
+              <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center pb-32 md:pb-24 mt-8">
                 <div className="max-w-4xl mx-auto">
-                  <p className="text-gold-light text-base md:text-lg lg:text-xl font-serif italic mb-4 md:mb-6 opacity-0 animate-fade-in">
+                  <p className="text-gold-light text-xl md:text-3xl lg:text-3xl font-arabic font-bold mb-10 md:mb-12 opacity-0 animate-fade-in leading-relaxed">
                     {slide.bismillah}
                   </p>
 

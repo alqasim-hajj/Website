@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -135,12 +137,18 @@
     @apply bg-background text-foreground font-sans antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif;
   }
 }
 
 @layer components {
+
   /* Islamic geometric pattern overlay */
   .pattern-overlay {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a962' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -148,37 +156,29 @@
 
   /* Gradient overlays */
   .gradient-spiritual {
-    background: linear-gradient(
-      135deg,
-      hsl(var(--emerald) / 0.9) 0%,
-      hsl(var(--emerald-dark) / 0.95) 100%
-    );
+    background: linear-gradient(135deg,
+        hsl(var(--emerald) / 0.9) 0%,
+        hsl(var(--emerald-dark) / 0.95) 100%);
   }
 
   .gradient-gold {
-    background: linear-gradient(
-      135deg,
-      hsl(var(--gold)) 0%,
-      hsl(var(--gold-dark)) 100%
-    );
+    background: linear-gradient(135deg,
+        hsl(var(--gold)) 0%,
+        hsl(var(--gold-dark)) 100%);
   }
 
   .gradient-sand {
-    background: linear-gradient(
-      180deg,
-      hsl(var(--sand-light)) 0%,
-      hsl(var(--background)) 100%
-    );
+    background: linear-gradient(180deg,
+        hsl(var(--sand-light)) 0%,
+        hsl(var(--background)) 100%);
   }
 
   /* Text gradient for headings */
   .text-gradient-gold {
-    background: linear-gradient(
-      135deg,
-      hsl(var(--gold)) 0%,
-      hsl(var(--gold-light)) 50%,
-      hsl(var(--gold)) 100%
-    );
+    background: linear-gradient(135deg,
+        hsl(var(--gold)) 0%,
+        hsl(var(--gold-light)) 50%,
+        hsl(var(--gold)) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -187,33 +187,57 @@
   /* Premium shadows */
   .shadow-spiritual {
     box-shadow: 0 4px 20px -4px hsl(var(--emerald) / 0.15),
-                0 8px 40px -8px hsl(var(--emerald) / 0.1);
+      0 8px 40px -8px hsl(var(--emerald) / 0.1);
   }
 
   .shadow-gold {
     box-shadow: 0 4px 20px -4px hsl(var(--gold) / 0.2),
-                0 8px 40px -8px hsl(var(--gold) / 0.15);
+      0 8px 40px -8px hsl(var(--gold) / 0.15);
   }
 
   .shadow-soft {
     box-shadow: 0 2px 10px -2px hsl(var(--foreground) / 0.08),
-                0 4px 20px -4px hsl(var(--foreground) / 0.05);
+      0 4px 20px -4px hsl(var(--foreground) / 0.05);
   }
 
   .shadow-elevated {
     box-shadow: 0 8px 30px -8px hsl(var(--foreground) / 0.12),
-                0 16px 60px -16px hsl(var(--foreground) / 0.08);
+      0 16px 60px -16px hsl(var(--foreground) / 0.08);
   }
 }
 
 @layer utilities {
+
   /* Animation delays */
-  .animation-delay-100 { animation-delay: 100ms; }
-  .animation-delay-200 { animation-delay: 200ms; }
-  .animation-delay-300 { animation-delay: 300ms; }
-  .animation-delay-400 { animation-delay: 400ms; }
-  .animation-delay-500 { animation-delay: 500ms; }
-  .animation-delay-600 { animation-delay: 600ms; }
-  .animation-delay-700 { animation-delay: 700ms; }
-  .animation-delay-800 { animation-delay: 800ms; }
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-700 {
+    animation-delay: 700ms;
+  }
+
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
 }

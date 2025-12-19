@@ -21,8 +21,8 @@ const Logo = ({
 
   const sizeClasses = {
     sm: "w-8 h-8",
-    md: "w-11 h-11 lg:w-13 lg:h-13",
-    lg: "w-16 h-16",
+    md: "w-14 h-14 lg:w-20 lg:h-20",
+    lg: "w-24 h-24",
   };
 
   const handleClick = (e: React.MouseEvent) => {
@@ -40,25 +40,25 @@ const Logo = ({
     <Component
       href={href}
       onClick={handleClick}
-      className={`flex items-center gap-3 ${href ? "cursor-pointer" : ""} ${className}`}
+      className={`flex items-center gap-3 lg:gap-4 ${href ? "cursor-pointer" : ""} ${className}`}
     >
       {logo?.image && (
-        <div className={`${sizeClasses[size]} rounded-full flex items-center justify-center overflow-hidden`}>
+        <div className={`${sizeClasses[size]} rounded-full flex items-center justify-center overflow-hidden shadow-sm border border-emerald/10 bg-white/5`}>
           <img
             src={logo.image}
             alt={`${logo.text} Logo`}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain p-1"
           />
         </div>
       )}
 
-      <div className="flex flex-col leading-tight">
-        <span className={`font-serif text-lg lg:text-xl font-semibold ${textClassName || ""}`}>
+      <div className="flex flex-col leading-none">
+        <span className={`font-serif text-xl lg:text-3xl font-bold bg-gradient-to-r from-gold-dark via-gold to-gold-dark bg-clip-text text-transparent drop-shadow-sm ${textClassName || ""}`}>
           {logo?.text}
         </span>
 
         {showTagline && (
-          <span className={`text-xs tracking-widest uppercase ${textClassName || ""}`}>
+          <span className={`text-[10px] lg:text-xs tracking-[0.2em] uppercase text-emerald-dark/80 font-medium ${textClassName || ""}`}>
             {logo?.subText}
           </span>
         )}

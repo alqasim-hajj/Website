@@ -42,15 +42,14 @@ const WhyChooseUs = () => {
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div
-          className={`text-center max-w-2xl mx-auto mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`text-center max-w-2xl mx-auto mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <span className="inline-block text-gold font-medium text-sm tracking-widest uppercase mb-4">
             {config.whyChooseUs?.sectionTitle || "Why Choose Us"}
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-primary-foreground mb-6">
-            {config.whyChooseUs?.mainHeading?.pre || "Trust Your Journey With"} <span className="text-gold">{config.whyChooseUs?.mainHeading?.highlight || "Al-Qasim Tours & Travels"}</span>
+            {config.whyChooseUs?.mainHeading?.pre || "Trust Your Journey With"} <br /><span className="text-gold">{config.whyChooseUs?.mainHeading?.highlight || "Al-Qasim Tours & Travels"}</span>
           </h2>
           <p className="text-primary-foreground/80 leading-relaxed">
             {config.whyChooseUs?.description || "We don't just arrange trips—we craft sacred experiences with attention to every detail,"}
@@ -65,11 +64,10 @@ const WhyChooseUs = () => {
             return (
               <div
                 key={reason.title}
-                className={`text-center p-6 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 ${
-                  isVisible
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-8"
-                }`}
+                className={`text-center p-6 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 ${isVisible
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-8"
+                  }`}
                 style={{
                   transitionDelay: isVisible ? `${index * 100}ms` : "0ms",
                 }}
@@ -91,9 +89,8 @@ const WhyChooseUs = () => {
         </div>
 
         <div
-          className={`mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center transition-all duration-700 delay-500 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center transition-all duration-700 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           {config.whyChooseUs?.stats?.map((stat, index) => (
             <div key={index}>

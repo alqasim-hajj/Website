@@ -7,6 +7,7 @@ import Packages from "@/components/Packages";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
+import Terms from "@/components/Terms";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ContactModal from "@/components/ContactModal";
@@ -25,6 +26,7 @@ const Index = () => {
       <Gallery />
       <Testimonials />
       <Contact />
+      <Terms />
       <Footer />
       <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </main>

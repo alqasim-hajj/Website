@@ -4,12 +4,22 @@ const DEFAULT_CONFIG = {
     "general": {
         "appName": "Al-Qasim Tours & Travels",
         "contact": {
-            "phone": "+918369554402",
+            "phone": "+91 83695 54402",
             "phoneLink": "tel:+918369554402",
-            "email": "info@sacredjourneys.com",
-            "emailLink": "mailto:info@sacredjourneys.com",
-            "address": "123 Islamic Center Road\nNew York, NY 10001",
-            "mapsLink": "https://maps.google.com/?q=40.7128,-74.0060"
+            "email": "alqasim586@gmail.com",
+            "emailLink": "mailto:alqasim586@gmail.com",
+            "offices": [
+                {
+                    "name": "Branch Office",
+                    "address": "Shop No. 04, Amrut Palms Society,\nGovindwadi Road, Kalyan West,\nDistrict Thane – 421301",
+                    "mapsLink": "https://www.google.com/maps/place/Amrut+palm/@19.2402021,73.1201137,21z"
+                },
+                {
+                    "name": "Head Office",
+                    "address": "Shop No. 13/14, Kamal Khan Building No. 12,\nBhendi Bazar, Mumbai – 400009",
+                    "mapsLink": "https://www.google.com/maps/place/Kamal+Khan+Building,+Fire+Brigade"
+                }
+            ]
         },
         "whatsapp": {
             "phoneNumber": "+918369554402",
@@ -18,7 +28,7 @@ const DEFAULT_CONFIG = {
         "logo": {
             "text": "Al-Qasim",
             "subText": "Tours & Travels",
-             "image": "/assets/Logo.png"
+            "image": "/assets/Logo.png"
         },
         "buttons": {
             "bookNow": "Book Now"
@@ -88,69 +98,161 @@ const DEFAULT_CONFIG = {
             { "icon": "BookOpen", "title": "Scholarly Guidance", "description": "Knowledgeable guides" }
         ]
     },
+    "whyChooseUs": {
+        "sectionTitle": "Why Choose Us",
+        "mainHeading": {
+            "pre": "Trust Your Journey With",
+            "highlight": "Al-Qasim Tours & Travels"
+        },
+        "description": "We don't just arrange trips—we craft sacred experiences with attention to every detail, ensuring your focus remains on worship and reflection.",
+        "reasons": [
+            {
+                "icon": "Shield",
+                "title": "Trusted & Certified",
+                "description": "Fully licensed and recognized by the Ministry of Hajj & Umrah for guaranteed peace of mind."
+            },
+            {
+                "icon": "Users",
+                "title": "Experienced Guides",
+                "description": "Accompanied by knowledgeable scholars to guide you through every ritual correctly."
+            },
+            {
+                "icon": "Clock",
+                "title": "24/7 Support",
+                "description": "Round-the-clock assistance throughout your journey for any needs or emergencies."
+            },
+            {
+                "icon": "Award",
+                "title": "Premium Service",
+                "description": "Top-rated hotels, comfortable transport, and high-quality meals included in all packages."
+            },
+            {
+                "icon": "Heart",
+                "title": "Review",
+                "description": "Personalized attention to ensure your spiritual comfort and satisfaction."
+            }
+        ],
+        "stats": [
+            { "number": "15+", "label": "Years Experience" },
+            { "number": "5000+", "label": "Happy Pilgrims" },
+            { "number": "100%", "label": "Satisfaction Rate" },
+            { "number": "24/7", "label": "Support" }
+        ]
+    },
     "services": {
-  "sectionTitle": "Our Services",
-  "mainHeading": {
-    "pre": "Everything You Need for a",
-    "highlight": "Blessed Journey"
-  },
-  "description": "From the moment you decide to embark...",
-  "items": [
-    {
-      "icon": "Plane",
-      "title": "Hajj Packages",
-      "description": "Complete Hajj packages with flights...",
-      "image": "https://images.news18.com/ibnlive/uploads/2025/07/Hajj-2026-2025-07-8648c488762c4facc41fb011bb6496e4.jpg"
-    },
-    {
-      "icon": "Building2",
-      "title": "Umrah Packages",
-      "description": "Year-round Umrah services...",
-      "image": "/images/services/umrah.jpg"
-    },
-    {
-      "icon": "FileCheck",
-      "title": "Visa Assistance",
-      "description": "Hassle-free visa processing...",
-      "image": "/images/services/visa.jpg"
+        "sectionTitle": "Our Services",
+        "mainHeading": {
+            "pre": "Everything You Need for a",
+            "highlight": "Blessed Journey"
+        },
+        "description": "From the moment you decide to embark...",
+        "items": [
+            {
+                "icon": "Plane",
+                "title": "Hajj Packages",
+                "description": "Complete Hajj packages with flights...",
+                "image": "https://images.news18.com/ibnlive/uploads/2025/07/Hajj-2026-2025-07-8648c488762c4facc41fb011bb6496e4.jpg"
+            },
+            {
+                "icon": "Building2",
+                "title": "Umrah Packages",
+                "description": "Year-round Umrah services...",
+                "image": "/images/services/umrah.jpg"
+            },
+            {
+                "icon": "FileCheck",
+                "title": "Visa Assistance",
+                "description": "Hassle-free visa processing...",
+                "image": "/images/services/visa.jpg"
+            }
+        ]
     }
-  ]
-}
-,
+    ,
     "packages": {
         "sectionTitle": "Our Packages",
         "mainHeading": { "pre": "Choose Your", "highlight": "Sacred Path" },
         "description": "Carefully curated packages aligned with official Hajj & Umrah programs.",
-        "items": [
+        "categories": [
             {
-                "name": "Deluxe Hajj – Shifting",
-                "duration": "39 Days",
-                "departure": "28 April 2026",
-                "price": "₹7,50,000+",
-                "zone": "Zone 3 · Category B (Premium)",
-                "featured": false,
-                "features": ["Direct Return Flights", "Shifting Accommodation (Azizia)", "Buffet Meals – 3 Times Daily", "AC Mina Tents", "Ziyarat Included", "Transportation Included", "Visa Assistance"],
-                "whatsappMessage": "Hi, I would like to book the Deluxe Hajj – Shifting package (Departure: 28 April 2026)."
+                "id": "hajj",
+                "label": "Hajj Packages",
+                "items": [
+                    {
+                        "name": "Deluxe Hajj – Shifting",
+                        "duration": "39 Days",
+                        "departure": "28 April 2026",
+                        "price": "₹7,50,000+",
+                        "zone": "Category B (Premium)",
+                        "featured": false,
+                        "features": [
+                            "Direct Return Flights",
+                            "Shifting Accommodation (Azizia)",
+                            "Buffet Meals – 3 Times Daily",
+                            "AC Mina Tents",
+                            "Ziyarat Included",
+                            "Transportation Included",
+                            "Visa"
+                        ],
+                        "whatsappMessage": "Hi, I would like to book the Deluxe Hajj – Shifting package (Departure: 28 April 2026)."
+                    },
+                    {
+                        "name": "Super Deluxe Hajj – Non Shifting",
+                        "duration": "19 Days",
+                        "departure": "17 May 2026",
+                        "price": "₹6,70,000+",
+                        "zone": "Category B (Premium)",
+                        "featured": true,
+                        "features": [
+                            "Direct Return Flights (BOM–JED–BOM)",
+                            "Premium AC Mina Tents",
+                            "Buffet Meals – 3 Times Daily",
+                            "Hotel / Apartment Accommodation",
+                            "Ziyarat in Makkah & Madina",
+                            "Transportation Included",
+                            "Visa"
+                        ],
+                        "whatsappMessage": "Hi, I would like to book the Super Deluxe Hajj – Non Shifting package (Departure: 17 May 2026)."
+                    }
+                ]
             },
             {
-                "name": "Super Deluxe Hajj – Non Shifting",
-                "duration": "19 Days",
-                "departure": "17 May 2026",
-                "price": "₹6,70,000+",
-                "zone": "Zone 3 · Category B (Premium)",
-                "featured": true,
-                "features": ["Direct Return Flights (BOM–JED–BOM)", "Premium AC Mina Tents", "Buffet Meals – 3 Times Daily", "Hotel / Apartment Accommodation", "Ziyarat in Makkah & Madina", "Transportation Included", "Visa Assistance"],
-                "whatsappMessage": "Hi, I would like to book the Super Deluxe Hajj – Non Shifting package (Departure: 17 May 2026)."
-            },
-            {
-                "name": "Economy Umrah Package",
-                "duration": "14 Days",
-                "departure": "Flexible Dates",
-                "price": "On Request",
-                "zone": "Standard Category",
-                "featured": false,
-                "features": ["Return Flights", "Hotel Accommodation", "Daily Meals", "Ziyarat Tours", "Transportation", "Visa Assistance"],
-                "whatsappMessage": "Hi, I would like to book the Economy Umrah Package (Departure: Flexible Dates)."
+                "id": "umrah",
+                "label": "Umrah Packages",
+                "items": [
+                    {
+                        "name": "Economy Umrah Package",
+                        "duration": "14 Days",
+                        "departure": "Flexible Dates",
+                        "price": "On Request",
+                        "zone": "Standard Category",
+                        "featured": false,
+                        "features": [
+                            "Return Flights",
+                            "Hotel Accommodation",
+                            "Daily Meals",
+                            "Ziyarat Tours",
+                            "Transportation",
+                            "Visa "
+                        ],
+                        "whatsappMessage": "Hi, I would like to book the Economy Umrah Package (Departure: Flexible Dates)."
+                    }, {
+                        "name": "Economy Umrah Package",
+                        "duration": "14 Days",
+                        "departure": "Flexible Dates",
+                        "price": "On Request",
+                        "zone": "Standard Category",
+                        "featured": false,
+                        "features": [
+                            "Return Flights",
+                            "Hotel Accommodation",
+                            "Daily Meals",
+                            "Ziyarat Tours",
+                            "Transportation",
+                            "Visa "
+                        ],
+                        "whatsappMessage": "Hi, I would like to book the Economy Umrah Package (Departure: Flexible Dates)."
+                    }
+                ]
             }
         ],
         "customPackage": {
@@ -162,12 +264,78 @@ const DEFAULT_CONFIG = {
         "sectionTitle": "Gallery",
         "mainHeading": { "pre": "Glimpses of the", "highlight": "Sacred Journey" },
         "description": "Experience the beauty and spirituality of the holy lands through the eyes of our pilgrims.",
-        "images": [
-            { "src": "/assets/hero-kaaba.jpg", "alt": "The Holy Kaaba in Masjid al-Haram", "title": "Masjid al-Haram", "span": "col-span-2 row-span-2" },
-            { "src": "/assets/islamic-pattern.jpg", "alt": "Beautiful Islamic Architecture", "title": "Islamic Art", "span": "col-span-1 row-span-1" },
-            { "src": "/assets/hotel-room.jpg", "alt": "Premium Hotel Accommodation", "title": "Luxury Stay", "span": "col-span-1 row-span-1" },
-            { "src": "/assets/arafat-pilgrims.jpg", "alt": "Pilgrims at Mount Arafat", "title": "Day of Arafat", "span": "col-span-1 row-span-1" },
-            { "src": "/assets/desert-sunset.jpg", "alt": "Beautiful Arabian Desert", "title": "Sacred Lands", "span": "col-span-1 row-span-1" }
+        "categories": [
+            {
+                "id": "makkah",
+                "label": "Makkah",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "/assets/hero-kaaba.jpg",
+                        "alt": "The Holy Kaaba in Masjid al-Haram",
+                        "title": "Masjid al-Haram"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/lucid-origin_A_breathtaking_ultra-realistic_spiritual_scene_of_Masjid_al-Haram_in_Makkah_at_g-0.jpg",
+                        "alt": "Masjid al-Haram at Night",
+                        "title": "Spiritual Night"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.youtube.com/embed/BadB1z-V_qU",
+                        "title": "Hajj Journey Highlights"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/lucid-origin_A_majestic_cinematic_view_of_the_Abraj_Al-Bait_Clock_Tower_in_Makkah_at_dusk_tow-0.jpg",
+                        "alt": "Makkah Clock Tower",
+                        "title": "Abraj Al Bait"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://images.unsplash.com/photo-1531256379416-9f000e90aacc?q=80&w=1000",
+                        "alt": "Pilgrims performing Tawaf",
+                        "title": "Tawaf"
+                    }
+                ]
+            },
+            {
+                "id": "madina",
+                "label": "Madina",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "/assets/lucid-origin_A_serene_and_emotional_spiritual_view_of_Masjid_an-Nabawi_in_Madinah_during_suns-0.jpg",
+                        "alt": "Masjid an-Nabawi",
+                        "title": "The Prophet's Mosque"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://images.unsplash.com/photo-1564121211835-e88c852648ab?q=80&w=1000",
+                        "alt": "Green Dome of Masjid an-Nabawi",
+                        "title": "Green Dome"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/islamic-pattern.jpg",
+                        "alt": "Islamic Architecture in Madina",
+                        "title": "Madina Architecture"
+                    }
+                ]
+            },
+            {
+                "id": "mina",
+                "label": "Mina Camp",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "/assets/arafat-pilgrims.jpg",
+                        "alt": "View of Mina Tents",
+                        "title": "City of Tents"
+                    }
+                ]
+            }
         ]
     },
     "testimonials": {
@@ -203,6 +371,68 @@ const DEFAULT_CONFIG = {
         "mainHeading": { "pre": "Begin Your", "highlight": "Sacred Journey", "post": "Today" },
         "description": "Have questions about our packages or ready to book? Our team is here to guide you every step of the way.",
         "formTitle": "Send Us a Message"
+    },
+    "terms": {
+        "sectionTitle": "Terms and Conditions",
+        "description": "Please read our terms and conditions carefully before booking your journey.",
+        "thankYou": {
+            "arabic": "جزاك الله خيرًا",
+            "english": "for using our services"
+        },
+        "categories": [
+            {
+                "id": "hajj",
+                "label": "Hajj Rules",
+                "content": [
+                    {
+                        "title": "Booking & Payments",
+                        "text": "A non-refundable deposit is required at the time of booking. Full payment must be made 30 days prior to departure."
+                    },
+                    {
+                        "title": "Visa Regulations",
+                        "text": "Hajj visas are issued subject to Ministry of Hajj & Umrah approval. We are not responsible for any rejections."
+                    },
+                    {
+                        "title": "Cancellation Policy",
+                        "text": "Cancellations made within 60 days of the trip will incur a 50% penalty. No refunds for cancellations within 21 days."
+                    },
+                    {
+                        "title": "Accommodation",
+                        "text": "Accommodation in Mina and Arafat is provided in government-designated tents. Hotel stays are subject to availability."
+                    },
+                    {
+                        "title": "Health & Safety",
+                        "text": "All pilgrims must be vaccinated as per the Ministry's guidelines. Clients with chronic conditions must inform us in advance."
+                    }
+                ]
+            },
+            {
+                "id": "umrah",
+                "label": "Umrah Rules",
+                "content": [
+                    {
+                        "title": "Booking Confirmation",
+                        "text": "Umrah bookings are confirmed only after the issuance of visas and flight tickets."
+                    },
+                    {
+                        "title": "Travel Documentation",
+                        "text": "Passports must be valid for at least 6 months from the date of travel. It is the pilgrim's responsibility to ensure documents are in order."
+                    },
+                    {
+                        "title": "Hotel Policies",
+                        "text": "Standard check-in time is 4:00 PM and check-out is 12:00 PM. Early check-in or late check-out is subject to availability and extra charges."
+                    },
+                    {
+                        "title": "Group Travel",
+                        "text": "Pilgrims must adhere to the group itinerary. Deviations are only allowed with prior written approval."
+                    },
+                    {
+                        "title": "Refund Policy",
+                        "text": "Unused services (meals, transport, etc.) are non-refundable once the journey has commenced."
+                    }
+                ]
+            }
+        ]
     },
     "footer": {
         "description": "Your trusted partner for a blessed pilgrimage. Experience the journey of a lifetime with expert guidance and premium services.",

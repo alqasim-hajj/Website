@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   // Helper to process address newlines
-  const addressLines = config.general.contact.address.split('\n');
+
 
   return (
     <footer className="bg-emerald-dark text-primary-foreground relative overflow-hidden">
@@ -111,41 +111,59 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="font-serif text-lg font-semibold mb-6">{config.footer.contactTitle}</h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <a
-                  href={config.general.contact.phoneLink}
-                  className="text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  {config.general.contact.phone}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <a
-                  href={config.general.contact.emailLink}
-                  className="text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  {config.general.contact.email}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <a
-                  href={config.general.contact.mapsLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-foreground/70 hover:text-gold transition-colors"
-                >
-                  {addressLines.map((line, i) => (
-                    <span key={i}>
-                      {line}
-                      {i < addressLines.length - 1 && <br />}
-                    </span>
-                  ))}
-                </a>
-              </li>
+            <ul className="space-y-6">
+              {/* Phone & Email */}
+              <div className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
+                  <a
+                    href={config.general.contact.phoneLink}
+                    className="text-primary-foreground/70 hover:text-gold transition-colors"
+                  >
+                    {config.general.contact.phone}
+                  </a>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
+                  <a
+                    href={config.general.contact.emailLink}
+                    className="text-primary-foreground/70 hover:text-gold transition-colors break-all"
+                  >
+                    {config.general.contact.email}
+                  </a>
+                </li>
+              </div>
+
+              {/* Offices */}
+              {config.general.contact.offices.map((office: any, index: number) => (
+                <li key={index} className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <strong className="block text-white mb-1">{office.name}:</strong>
+                    <a
+                      href={office.mapsLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-foreground/70 hover:text-gold transition-colors text-sm leading-relaxed block"
+                    >
+                      {office.address.split('\n').map((line: string, i: number) => (
+                        <span key={i}>
+                          {line}
+                          {i < office.address.split('\n').length - 1 && <br />}
+                        </span>
+                      ))}
+                    </a>
+                    <a
+                      href={office.mapsLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gold text-xs mt-1 inline-block hover:underline"
+                    >
+                      Google Maps Location
+                    </a>
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -159,7 +177,14 @@ const Footer = () => {
             <a href="#" className="text-primary-foreground/60 hover:text-gold transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-primary-foreground/60 hover:text-gold transition-colors">
+            <a
+              href="#terms"
+              onClick={(e) => {
+                e.preventDefault();
+                handleScroll("#terms");
+              }}
+              className="text-primary-foreground/60 hover:text-gold transition-colors"
+            >
               Terms of Service
             </a>
           </div>

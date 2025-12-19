@@ -42,17 +42,16 @@ const Navbar = () => {
     <header
       className={`
         fixed top-0 left-0 right-0 z-50 transition-all duration-500
-        ${
-          isDesktop
-            ? isScrolled
-              ? "bg-emerald/20 backdrop-blur-xl shadow-soft border-b border-emerald/30"
-              : "bg-transparent"
+        ${isDesktop
+          ? isScrolled
+            ? "bg-emerald/20 backdrop-blur-xl shadow-soft border-b border-emerald/30"
             : "bg-transparent"
+          : "bg-transparent"
         }
       `}
     >
       <div className="container mx-auto px-4 lg:px-8">
-        <nav className="flex items-center justify-between h-20 lg:h-24">
+        <nav className="flex items-center justify-between h-24 lg:h-24">
 
           {/* LOGO */}
           <Logo
@@ -60,11 +59,9 @@ const Navbar = () => {
             href="#home"
             textClassName={`
               transition-all duration-500
-              ${
-                isDesktop && isScrolled
-                  ? "text-foreground drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
-
-                  : "text-primary-foreground"
+              ${isDesktop && isScrolled
+                ? "drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]"
+                : "drop-shadow-sm"
               }
             `}
           />
@@ -81,11 +78,10 @@ const Navbar = () => {
                 }}
                 className={`
                   text-sm font-medium tracking-wide transition-all duration-500
-                  ${
-                    isScrolled
-                      ? "text-foreground drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
+                  ${isScrolled
+                    ? "text-foreground drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
 
-                      : "text-primary-foreground"
+                    : "text-primary-foreground"
                   }
                 `}
               >
@@ -100,11 +96,10 @@ const Navbar = () => {
               href={config.general.contact.phoneLink}
               className={`
                 flex items-center gap-2 text-sm font-medium transition-all duration-500
-                ${
-                  isScrolled
-                    ? "text-foreground drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
+                ${isScrolled
+                  ? "text-foreground drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
 
-                    : "text-primary-foreground"
+                  : "text-primary-foreground"
                 }
               `}
             >
@@ -136,10 +131,9 @@ const Navbar = () => {
             lg:hidden absolute left-0 right-0 top-full
             bg-emerald/20 backdrop-blur-xl shadow-elevated
             transition-all duration-300
-            ${
-              isMobileMenuOpen
-                ? "opacity-100 visible translate-y-0"
-                : "opacity-0 invisible -translate-y-4"
+            ${isMobileMenuOpen
+              ? "opacity-100 visible translate-y-0"
+              : "opacity-0 invisible -translate-y-4"
             }
           `}
         >
