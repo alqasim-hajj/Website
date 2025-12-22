@@ -36,8 +36,8 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div
             className={`relative transition-all duration-1000 ${isVisible
-                ? "opacity-100 translate-x-0"
-                : "opacity-0 -translate-x-12"
+              ? "opacity-100 translate-x-0"
+              : "opacity-0 -translate-x-12"
               }`}
           >
             <div className="relative">
@@ -62,8 +62,8 @@ const About = () => {
           {/* Content */}
           <div
             className={`transition-all duration-1000 delay-200 ${isVisible
-                ? "opacity-100 translate-x-0"
-                : "opacity-0 translate-x-12"
+              ? "opacity-100 translate-x-0"
+              : "opacity-0 translate-x-12"
               }`}
           >
             <span className="inline-block text-accent font-medium text-sm tracking-widest uppercase mb-4">

@@ -35,8 +35,8 @@ const Gallery = () => {
               key={category.id}
               onClick={() => setActiveTab(category.id)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeTab === category.id
-                  ? "bg-emerald text-white shadow-lg scale-105"
-                  : "bg-white text-gray-600 hover:bg-emerald/10 hover:text-emerald border border-gray-100"
+                ? "bg-emerald text-white shadow-lg scale-105"
+                : "bg-white text-gray-600 hover:bg-emerald/10 hover:text-emerald border border-gray-100"
                 }`}
             >
               {category.label}

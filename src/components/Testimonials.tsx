@@ -53,8 +53,8 @@ const Testimonials = () => {
             <div
               key={testimonial.name}
               className={`relative bg-card p-8 rounded-2xl shadow-soft hover:shadow-elevated transition-all duration-500 ${isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-12"
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-12"
                 }`}
               style={{
                 transitionDelay: isVisible ? `${index * 150}ms` : "0ms",
