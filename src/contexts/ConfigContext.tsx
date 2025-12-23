@@ -106,7 +106,7 @@ const DEFAULT_CONFIG = {
         "mainHeading": { "pre": "Your Trusted Partner for a", "highlight": "Blessed Pilgrimage" },
         "description": [
             "At Al-Qasim Tours & Travels, we understand that Hajj and Umrah are not just trips—they are profound spiritual experiences that every Muslim dreams of. We are dedicated to making your sacred journey as seamless and meaningful as possible.",
-            "With over 15 years of experience, our team of devoted professionals provides personalized care, from visa assistance to premium accommodations near the Haram, ensuring you can focus entirely on your ibadah."
+            "With over 8 years of experience, our team of devoted professionals provides personalized care, from visa assistance to premium accommodations near the Haram, ensuring you can focus entirely on your ibadah."
         ],
         "features": [
             { "icon": "CheckCircle", "title": "Licensed & Certified", "description": "Official travel partner" },
