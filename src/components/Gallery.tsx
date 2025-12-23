@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useConfig } from "@/contexts/ConfigContext";
 import { X, ZoomIn } from "lucide-react";
+import VideoPlayer from "./VideoPlayer";
 
 const Gallery = () => {
   const config = useConfig();
   // Ensure categories exist, fallback to empty array if config is loading or malformed
   const categories = config.gallery.categories || [];
   const [activeTab, setActiveTab] = useState(categories[0]?.id || "");
-  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string; title: string } | null>(null);
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string; title: string; type?: string } | null>(null);
 
   const activeCategory = categories.find((c) => c.id === activeTab);
   const items = activeCategory?.items || activeCategory?.images || []; // Fallback for transition compatibility
@@ -48,7 +49,7 @@ const Gallery = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-20">
           {items.map((item: any, index: number) => {
             // Determine type if not explicitly set (fallback for old config style)
-            const isVideo = item.type === 'video' || (item.url && item.url.includes('youtube'));
+            const isVideo = item.type === 'video' || (item.src && (item.src.includes('youtube') || item.src.includes('facebook') || item.src.includes('googlevideo')));
             const isImage = !isVideo;
 
             if (isVideo) {
@@ -57,12 +58,10 @@ const Gallery = () => {
                   key={index}
                   className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-black shadow-md hover:shadow-xl transition-all duration-300"
                 >
-                  <iframe
-                    src={item.src || item.url}
+                  <VideoPlayer
+                    src={item.src}
                     title={item.title}
-                    className="w-full h-full absolute inset-0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    className="absolute inset-0"
                   />
                 </div>
               );
