@@ -381,13 +381,13 @@
                 "items": [
                     {
                         "type": "image",
-                        "src": "/assets/hero-kaaba.jpg",
+                        "src": "https://i.ytimg.com/vi/-ygLck1TnGA/sddefault.jpg",
                         "alt": "The Holy Kaaba in Masjid al-Haram",
                         "title": "Masjid al-Haram"
                     },
                     {
                         "type": "image",
-                        "src": "/assets/lucid-origin_A_breathtaking_ultra-realistic_spiritual_scene_of_Masjid_al-Haram_in_Makkah_at_g-0.jpg",
+                        "src": "https://image-tc.galaxy.tf/wijpeg-c23cp0thwjlczeh54brstzp04/penta-duplex-suite-1.jpg?width=1920",
                         "alt": "Masjid al-Haram at Night",
                         "title": "Spiritual Night"
                     },
@@ -395,6 +395,11 @@
                         "type": "video",
                         "src": "https://www.youtube.com/embed/eTrUgq_-2wo",
                         "title": "Hajj Journey Highlights"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://rr2---sn-cvh76nle.googlevideo.com/videoplayback?expire=1766506441&ei=qaNKaa74I6v7svsPxauC4Qo&ip=103.124.23.211&id=93697cdcb7d38424&itag=18&source=contrib_service_geo_ugc&begin=0&requiressl=yes&xpc=EghoqJzIP3oBAQ==&met=1766499241,&mh=Ml&mm=32&mn=sn-cvh76nle&ms=su&mv=m&mvi=2&pl=24&rms=su,su&sc=yes&susc=gugc&app=fife&ic=1061&eaua=cNVolIxvjlQ&pcm2=yes&mime=video/mp4&vprv=1&rqh=1&dur=30.046&lmt=1750243866444473&mt=1766498707&txp=0000224&sparams=expire,ei,ip,id,itag,source,requiressl,xpc,susc,app,ic,eaua,pcm2,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRAIgVuSmBd5R-sQpkMLwaXOaisMfL-U3dxxUjzxxTyqv1RgCIEI6R5nznmAP4qAhHVwD1afrFkMC6LPcLtJjsG-ImuH8&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms,sc&lsig=APaTxxMwRAIgOIX7DTgZrUjT0g9CAZgtDfdSQyAsXiODk88LVssmX_4CIA6M1K8kjWcJNVNEalLcwmBU8cd53m8Wdf7bkRl5mVYL",
+                        "title": "Direct Video Proof"
                     },
                     {
                         "type": "image",
@@ -422,15 +427,15 @@
                 "items": [
                     {
                         "type": "image",
-                        "src": "/assets/lucid-origin_A_serene_and_emotional_spiritual_view_of_Masjid_an-Nabawi_in_Madinah_during_suns-0.jpg",
+                        "src": "https://lh3.googleusercontent.com/p/AF1QipPHzM9FzSXHvLx5QjPcJ-h2RYuZmlcJk8ILG679=s1360-w1360-h1020-rw",
                         "alt": "Masjid an-Nabawi",
                         "title": "The Prophet's Mosque"
                     },
                     {
                         "type": "image",
-                        "src": "https://images.unsplash.com/photo-1564121211835-e88c852648ab?q=80&w=1000",
+                        "src": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxeiOYXTKsFcz3rfSBKgOq7zof3wxN2Du3IcGd3i3xMT-_lwXTgKE5G8oPw7-amGJJYG8A_4NXj_0-25M-PZVO_qx5LUKRPPqu7ZlFk5GWDYg1v5u7wNIIMgumdJSRBJN_dPTMP=s1360-w1360-h1020-rw",
                         "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Green Dome"
+                        "title": "Al-Makhtara International Hotel"
                     },
                     {
                         "type": "image",
@@ -445,10 +450,14 @@
                         "title": "Al-Mukhtara Hotel inner View"
                     },
                     {
-                        "type": "image",
-                        "src": "https://images.unsplash.com/photo-1564121211835-e88c852648ab?q=80&w=1000",
-                        "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Green Dome"
+                        "type": "video",
+                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
+                        "title": "Madina Short"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.facebook.com/watch/?v=1164802875151528",
+                        "title": "Facebook Video"
                     },
                     {
                         "type": "image",
