@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 import Packages from "@/components/Packages";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 import Terms from "@/components/Terms";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -24,7 +24,7 @@ const Index = () => {
       <Packages />
       <WhyChooseUs />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Terms />
       <Footer />
