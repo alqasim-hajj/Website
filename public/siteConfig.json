@@ -479,42 +479,7 @@
                         "alt": "View of Mina Tents",
                         "title": "City of Tents"
                     },
-                    {
-                        "type": "image",
-                        "src": "https://dreamlife.page/wp-content/uploads/2011/11/mina_tent.jpg",
-                        "alt": "Masjid an-Nabawi",
-                        "title": "The Prophet's Mosque"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://muslimtravelgirl.com/wp-content/uploads/2023/11/Hajj-experience-day-1-my-mina-camp-food_2.webp",
-                        "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Green Dome"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://cdn.arabsstock.com/uploads/videos/198394/the-arrival-of-muslims-from-thumbnail-198394.jpeg",
-                        "alt": "Islamic Architecture in Madina",
-                        "title": "Madina Architecture"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://cloudfront-eu-central-1.images.arcpublishing.com/thenational/DTSWMCRUVEUJ67DO5LMBHNSARA.jpg",
-                        "alt": "Masjid an-Nabawi",
-                        "title": "The Prophet's Mosque"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://www.hajjnaseeha.com/wp-content/uploads/2019/11/20190811_115051-1024x768.jpg",
-                        "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Green Dome"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://cdn.arabsstock.com/uploads/images/24739/night-of-the-hair-mina-thumbnail-24739.webp",
-                        "alt": "Islamic Architecture in Madina",
-                        "title": "Madina Architecture"
-                    }
+                    
                 ]
             }
         ]
