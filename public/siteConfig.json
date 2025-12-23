@@ -10,6 +10,10 @@
                 {
                     "name": "Head Office",
                     "address": "Shop No. 13/14, Kamal Khan Building No. 12,\nBhendi Bazar, Mumbai – 400009",
+                    "type": "phone",
+                    "label": "Phone 2",
+                    "number": "+91 2223734095",
+                    "link": "tel:+912223734095",
                     "mapsLink": "https://www.google.com/maps/place/Al+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services/@18.9587753,72.8327938,17z/data=!4m14!1m7!3m6!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!2sAl+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh!3m5!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
                 },
                 {
@@ -681,6 +685,20 @@
         "quickLinksTitle": "Quick Links",
         "servicesTitle": "Our Services",
         "contactTitle": "Contact Info",
+        "topContactNumbers": [
+            {
+                "number": "+91 8369554402",
+                "link": "tel:+918369554402"
+            },
+            {
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "number": "+91 93723 28636",
+                "link": "tel:+919372328636"
+            }
+        ],
         "copyright": "© 2024 Al-Qasim Tours & Travels. All rights reserved.",
         "contactNumbers": [
             {
