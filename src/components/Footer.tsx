@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import ContactPopup from "./ContactPopup";
 import Logo from "./Logo";
 import { useConfig } from "@/contexts/ConfigContext";
@@ -47,7 +47,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@alqasimhajumrah"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
                 aria-label="YouTube"
               >
@@ -112,27 +112,40 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-6">{config.footer.contactTitle}</h4>
             <ul className="space-y-6">
-              {/* Phone & Email */}
-              <div className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                  <a
-                    href={config.general.contact.phoneLink}
-                    className="text-primary-foreground/70 hover:text-gold transition-colors"
-                  >
-                    {config.general.contact.phone}
-                  </a>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                  <a
-                    href={config.general.contact.emailLink}
-                    className="text-primary-foreground/70 hover:text-gold transition-colors break-all"
-                  >
-                    {config.general.contact.email}
-                  </a>
-                </li>
-              </div>
+              {/* Contact Numbers */}
+              {config.footer.contactNumbers && (
+                <div className="space-y-3">
+                  {config.footer.contactNumbers.map((contact: any, index: number) => (
+                    <li key={index} className="flex items-start gap-3">
+                      {contact.type === "whatsapp" ? (
+                        <MessageCircle className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
+                      ) : (
+                        <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
+                      )}
+                      <div className="flex flex-col">
+                        <span className="text-xs text-primary-foreground/50 mb-1">{contact.label}</span>
+                        <a
+                          href={contact.link}
+                          className="text-primary-foreground/70 hover:text-gold transition-colors"
+                        >
+                          {contact.number}
+                        </a>
+                      </div>
+                    </li>
+                  ))}
+                </div>
+              )}
+
+              {/* Email */}
+              <li className="flex items-start gap-3">
+                <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
+                <a
+                  href={config.general.contact.emailLink}
+                  className="text-primary-foreground/70 hover:text-gold transition-colors break-all"
+                >
+                  {config.general.contact.email}
+                </a>
+              </li>
 
               {/* Offices */}
               {config.general.contact.offices.map((office: any, index: number) => (
