@@ -448,6 +448,20 @@ const DEFAULT_CONFIG = {
         "quickLinksTitle": "Quick Links",
         "servicesTitle": "Our Services",
         "contactTitle": "Contact Info",
+        "topContactNumbers": [
+            {
+                "number": "+91 8369554402",
+                "link": "tel:+918369554402"
+            },
+            {
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "number": "+91 93723 28636",
+                "link": "tel:+919372328636"
+            }
+        ],
         "copyright": "© 2024 Al-Qasim Tours & Travels. All rights reserved.",
         "contactNumbers": [
             {
