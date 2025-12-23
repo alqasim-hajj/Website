@@ -32,6 +32,14 @@ const DEFAULT_CONFIG = {
         },
         "buttons": {
             "bookNow": "Book Now"
+        },
+        "seo": {
+            "title": "Alqasim Hajj and Umrah | Hajj & Umrah Packages from Mumbai",
+            "description": "Book trusted Hajj and Umrah packages from Mumbai with Alqasim Hajj and Umrah. Offices in Bhindi Bazar and Kalyan. Limited slots available.",
+            "keywords": "Hajj packages Mumbai, Umrah packages Mumbai, Alqasim Hajj Umrah, Hajj tours Bhindi Bazar, Umrah Kalyan, Hajj Bhiwandi, Umrah Thane, Hajj Mumbra, Hajj 2026 packages, Ramadan Umrah packages",
+            "geoRegion": "IN-MH",
+            "geoPlacename": "Mumbai",
+            "geoPosition": "19.0762;72.8333"
         }
     },
     "navigation": [
