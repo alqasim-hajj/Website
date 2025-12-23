@@ -84,6 +84,11 @@ const DEFAULT_CONFIG = {
         "buttons": {
             "explore": "Explore Packages",
             "contact": "Contact Us"
+        },
+        "countdown": {
+            "targetDate": "2026-01-15",
+            "deadlineText": "Last date of Hajj booking is 15 January 2026",
+            "supportingText": "Do not delay – secure your Hajj booking before time closes"
         }
     },
     "about": {
@@ -444,6 +449,26 @@ const DEFAULT_CONFIG = {
         "servicesTitle": "Our Services",
         "contactTitle": "Contact Info",
         "copyright": "© 2024 Al-Qasim Tours & Travels. All rights reserved.",
+        "contactNumbers": [
+            {
+                "type": "phone",
+                "label": "Phone 1",
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "type": "phone",
+                "label": "Phone 2",
+                "number": "+91 2223734095",
+                "link": "tel:+912223734095"
+            },
+            {
+                "type": "whatsapp",
+                "label": "WhatsApp",
+                "number": "+91 7738959091",
+                "link": "https://wa.me/917738959091"
+            }
+        ],
         "links": {
             "quickLinks": [
                 { "label": "Home", "href": "#home" },
