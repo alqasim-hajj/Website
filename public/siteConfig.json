@@ -8,14 +8,14 @@
             "emailLink": "mailto:alqasim586@gmail.com",
             "offices": [
                 {
+                    "name": "Head Office",
+                    "address": "Shop No. 13/14, Kamal Khan Building No. 12,\nBhendi Bazar, Mumbai – 400009",
+                    "mapsLink": "https://www.google.com/maps/place/Al+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services/@18.9587753,72.8327938,17z/data=!4m14!1m7!3m6!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!2sAl+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh!3m5!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                },
+                {
                     "name": "Branch Office",
                     "address": "Shop No. 04, Amrut Palms Society,\nGovindwadi Road, Kalyan West,\nDistrict Thane – 421301",
                     "mapsLink": "https://www.google.com/maps/place/Amrut+palm/@19.2402021,73.1201137,21z"
-                },
-                {
-                    "name": "Head Office",
-                    "address": "Shop No. 13/14, Kamal Khan Building No. 12,\nBhendi Bazar, Mumbai – 400009",
-                    "mapsLink": "https://www.google.com/maps/place/Kamal+Khan+Building,+Fire+Brigade"
                 }
             ]
         },
@@ -113,6 +113,11 @@
         "buttons": {
             "explore": "Explore Packages",
             "contact": "Contact Us"
+        },
+        "countdown": {
+            "targetDate": "2026-01-15",
+            "deadlineText": "Last date of Hajj booking is 15 January 2026",
+            "supportingText": "Do not delay – secure your Hajj booking before time closes"
         }
     },
     "about": {
@@ -677,6 +682,26 @@
         "servicesTitle": "Our Services",
         "contactTitle": "Contact Info",
         "copyright": "© 2024 Al-Qasim Tours & Travels. All rights reserved.",
+        "contactNumbers": [
+            {
+                "type": "phone",
+                "label": "Phone 1",
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "type": "phone",
+                "label": "Phone 2",
+                "number": "+91 2223734095",
+                "link": "tel:+912223734095"
+            },
+            {
+                "type": "whatsapp",
+                "label": "WhatsApp",
+                "number": "+91 7738959091",
+                "link": "https://wa.me/917738959091"
+            }
+        ],
         "links": {
             "quickLinks": [
                 {
