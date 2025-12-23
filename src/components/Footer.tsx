@@ -112,29 +112,18 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-6">{config.footer.contactTitle}</h4>
             <ul className="space-y-6">
-              {/* Contact Numbers */}
-              {config.footer.contactNumbers && (
-                <div className="space-y-3">
-                  {config.footer.contactNumbers.map((contact: any, index: number) => (
-                    <li key={index} className="flex items-start gap-3">
-                      {contact.type === "whatsapp" ? (
-                        <MessageCircle className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                      ) : (
-                        <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                      )}
-                      <div className="flex flex-col">
-                        <span className="text-xs text-primary-foreground/50 mb-1">{contact.label}</span>
-                        <a
-                          href={contact.link}
-                          className="text-primary-foreground/70 hover:text-gold transition-colors"
-                        >
-                          {contact.number}
-                        </a>
-                      </div>
-                    </li>
-                  ))}
-                </div>
-              )}
+              {/* Top Contact Numbers */}
+              {config.footer.topContactNumbers && config.footer.topContactNumbers.map((contact: { number: string; link: string }, idx: number) => (
+                <li key={`top-${idx}`} className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 text-gold flex-shrink-0" />
+                  <a
+                    href={contact.link}
+                    className="text-primary-foreground/70 hover:text-gold transition-colors"
+                  >
+                    {contact.number}
+                  </a>
+                </li>
+              ))}
 
               {/* Email */}
               <li className="flex items-start gap-3">
@@ -174,6 +163,29 @@ const Footer = () => {
                     >
                       Google Maps Location
                     </a>
+
+                    {/* Show contact numbers only for Head Office */}
+                    {office.name === "Head Office" && config.footer.contactNumbers && (
+                      <div className="mt-3 space-y-2">
+                        {config.footer.contactNumbers
+                          .filter((contact: any) => contact.label === "Phone 2" || contact.type === "whatsapp")
+                          .map((contact: any, idx: number) => (
+                            <div key={idx} className="flex items-center gap-2">
+                              {contact.type === "whatsapp" ? (
+                                <MessageCircle className="w-4 h-4 text-gold flex-shrink-0" />
+                              ) : (
+                                <Phone className="w-4 h-4 text-gold flex-shrink-0" />
+                              )}
+                              <a
+                                href={contact.link}
+                                className="text-primary-foreground/70 hover:text-gold transition-colors text-sm"
+                              >
+                                {contact.number}
+                              </a>
+                            </div>
+                          ))}
+                      </div>
+                    )}
                   </div>
                 </li>
               ))}
@@ -201,9 +213,9 @@ const Footer = () => {
               Terms of Service
             </a>
           </div>
-        </div>
-      </div>
-    </footer>
+        </div >
+      </div >
+    </footer >
   );
 };
 
