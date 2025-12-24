@@ -409,11 +409,6 @@
                         "title": "Spiritual Night"
                     },
                     {
-                        "type": "video",
-                        "src": "https://www.youtube.com/embed/eTrUgq_-2wo",
-                        "title": "Hajj Journey Highlights"
-                    },
-                    {
                         "type": "image",
                         "src": "/assets/lucid-origin_A_majestic_cinematic_view_of_the_Abraj_Al-Bait_Clock_Tower_in_Makkah_at_dusk_tow-0.jpg",
                         "alt": "Makkah Clock Tower",
@@ -447,7 +442,7 @@
                         "type": "image",
                         "src": "https://images.trvl-media.com/lodging/101000000/100530000/100525400/100525370/cc942c35.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
                         "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Al-Makhtara International Hotel"
+                        "title": "Al-Mukhtara International Hotel"
                     },
                     {
                         "type": "image",
@@ -482,8 +477,8 @@
                     {
                         "type": "video",
                         "src": "https://youtube.com/shorts/cLglglSt8fA?si=IAOIu_oWVKuwCwWc",
-                        "alt": "Al makhtara Hotel",
-                        "title": "Al makhtara Hotel"
+                        "alt": "Al Mukhtara Hotel",
+                        "title": "Al Mukhtara Hotel"
                     }
                 ]
             },
