@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import siteConfig from '../config/siteConfig.json';
+import siteConfig from '@/config/siteConfig.json';
 
 type ConfigType = typeof siteConfig;
 
