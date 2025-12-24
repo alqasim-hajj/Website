@@ -17,7 +17,7 @@ export default {
         sans: ['DM Sans', 'system-ui', 'sans-serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
         arabic: ['Scheherazade New', 'serif'],
-        urdu: ['Jameel Noori Nastaleeq', 'serif'],
+        urdu: ['Jameel Noori Nastaleeq', 'Jameel Noori', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -121,6 +121,10 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        "float-subtle": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-5px)" },
+        },
         "shimmer": {
           "0%": { backgroundPosition: "-200% 0" },
           "100%": { backgroundPosition: "200% 0" },
@@ -140,6 +144,7 @@ export default {
         "fade-in-right": "fade-in-right 0.8s ease-out forwards",
         "scale-in": "scale-in 0.5s ease-out forwards",
         "float": "float 6s ease-in-out infinite",
+        "float-subtle": "float-subtle 4s ease-in-out infinite",
         "shimmer": "shimmer 2s linear infinite",
         "pulse-soft": "pulse-soft 3s ease-in-out infinite",
       },
