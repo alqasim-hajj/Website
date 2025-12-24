@@ -1,0 +1,775 @@
+{
+    "general": {
+        "appName": "Al-Qasim Tours & Travels",
+        "contact": {
+            "phone": "+91 83695 54402",
+            "phoneLink": "tel:+918369554402",
+            "email": "alqasim586@gmail.com",
+            "emailLink": "mailto:alqasim586@gmail.com",
+            "offices": [
+                {
+                    "name": "Head Office",
+                    "address": "Shop No. 13/14, Kamal Khan Building No. 12,\nBhendi Bazar, Mumbai – 400009",
+                    "type": "phone",
+                    "label": "Phone 2",
+                    "number": "+91 2223734095",
+                    "link": "tel:+912223734095",
+                    "mapsLink": "https://www.google.com/maps/place/Al+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services/@18.9587753,72.8327938,17z/data=!4m14!1m7!3m6!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!2sAl+Qasim+Haj+Umrah+%26+Ziyarat+Tours+Services!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh!3m5!1s0x3be7cf990beaf041:0xc5ca58ab0be4533a!8m2!3d18.9588198!4d72.8328771!16s%2Fg%2F11l2k0qqyh?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                },
+                {
+                    "name": "Branch Office",
+                    "address": "Shop No. 04, Amrut Palms Society,\nGovindwadi Road, Kalyan West,\nDistrict Thane – 421301",
+                    "mapsLink": "https://www.google.com/maps/place/Amrut+palm/@19.2402021,73.1201137,21z"
+                }
+            ]
+        },
+        "socialLinks": [
+            {
+                "platform": "facebook",
+                "url": "https://www.facebook.com/profile.php?id=61552094383684",
+                "label": "Facebook"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/alqasimhajumrah/",
+                "label": "Instagram"
+            },
+            {
+                "platform": "youtube",
+                "url": "https://www.youtube.com/@alqasimhajumrah",
+                "label": "YouTube"
+            }
+        ],
+        "whatsapp": {
+            "phoneNumber": "+918369554402",
+            "defaultMessage": "Hi, I would like to inquire about Hajj/Umrah packages."
+        },
+        "logo": {
+            "text": "Al-Qasim",
+            "subText": "Tours & Travels",
+            "image": "/assets/Logo.png"
+        },
+        "buttons": {
+            "bookNow": "Book Now"
+        },
+        "seo": {
+            "title": "Alqasim Hajj and Umrah | Hajj & Umrah Packages from Mumbai",
+            "description": "Book trusted Hajj and Umrah packages from Mumbai with Alqasim Hajj and Umrah. Offices in Bhindi Bazar and Kalyan. Limited slots available.",
+            "keywords": "Hajj packages Mumbai, Umrah packages Mumbai, Alqasim Hajj Umrah, Hajj tours Bhindi Bazar, Umrah Kalyan, Hajj Bhiwandi, Umrah Thane, Hajj Mumbra, Hajj 2026 packages, Ramadan Umrah packages",
+            "geoRegion": "IN-MH",
+            "geoPlacename": "Mumbai",
+            "geoPosition": "19.0760;72.8777"
+        }
+    },
+    "navigation": [
+        {
+            "href": "#home",
+            "label": "Home"
+        },
+        {
+            "href": "#about",
+            "label": "About"
+        },
+        {
+            "href": "#services",
+            "label": "Services"
+        },
+        {
+            "href": "#packages",
+            "label": "Packages"
+        },
+        {
+            "href": "#gallery",
+            "label": "Gallery"
+        }
+    ],
+    "hero": {
+        "slides": [
+            {
+                "image": "/assets/hero-kaaba.jpg",
+                "bismillah": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
+                "translation": "اللہ کے نام سے جو بہت مہربان نہایت رحم والا ہے",
+                "headingPre": "Begin Your",
+                "headingSpan": "Sacred Journey",
+                "subheading": "Experience the spiritual pilgrimage of a lifetime with trusted guidance, premium services, and complete peace of mind."
+            },
+            {
+                "image": "/assets/lucid-origin_A_serene_and_emotional_spiritual_view_of_Masjid_an-Nabawi_in_Madinah_during_suns-0.jpg",
+                "bismillah": "وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ",
+                "translation": " اللہ کے لیے حج اور عمرہ کو پورا کرو",
+                "headingPre": "Spiritual",
+                "headingSpan": "Enlightenment",
+                "subheading": "Join thousands of pilgrims in the most sacred journey, guided by experienced scholars and modern comfort."
+            },
+            {
+                "image": "/assets/lucid-origin_A_majestic_cinematic_view_of_the_Abraj_Al-Bait_Clock_Tower_in_Makkah_at_dusk_tow-0.jpg",
+                "bismillah": "وَأَذِّنْ فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِنْ كُلِّ فَجٍّ عَمِيقٍ",
+                "translation": "اور لوگوں میں حج کا اعلان کر دو، وہ تمہارے پاس پیدل بھی آئیں گے اور سب کے سب دور دراز کے راستوں سے آئیں گے",
+                "headingPre": "Peace and",
+                "headingSpan": "Serenity",
+                "subheading": "Find inner peace through the rituals of Hajj and Umrah, with all arrangements handled professionally."
+            },
+            {
+                "image": "/assets/lucid-origin_A_breathtaking_ultra-realistic_spiritual_scene_of_Masjid_al-Haram_in_Makkah_at_g-0.jpg",
+                "bismillah": "الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ",
+                "translation": "حج کے مہینے طے شدہ (اور معلوم) ہیں",
+                "headingPre": "Your Journey",
+                "headingSpan": "Starts Here",
+                "subheading": "Comprehensive Hajj and Umrah services tailored to your needs, ensuring a memorable and blessed experience."
+            }
+        ],
+        "trustBadges": [
+            {
+                "value": "8+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "5K+",
+                "label": "Happy Pilgrims"
+            },
+            {
+                "value": "100%",
+                "label": "Satisfaction"
+            }
+        ],
+        "buttons": {
+            "explore": "Explore Packages",
+            "contact": "Contact Us"
+        },
+        "countdown": {
+            "targetDate": "2026-01-15",
+            "deadlineText": "Last date of Hajj booking is 15 January 2026",
+            "supportingText": "Do not delay – secure your Hajj booking before time closes"
+        }
+    },
+    "about": {
+        "image": "/assets/islamic-pattern.jpg",
+        "yearsOfTrust": {
+            "value": "8+",
+            "label": "Years of Trust",
+            "subLabel": "Guiding pilgrims on their sacred journey since 2015"
+        },
+        "sectionTitle": "About Us",
+        "mainHeading": {
+            "pre": "Your Trusted Partner for a",
+            "highlight": "Blessed Pilgrimage"
+        },
+        "description": [
+            "At Al-Qasim Tours & Travels, we understand that Hajj and Umrah are not just trips—they are profound spiritual experiences that every Muslim dreams of. We are dedicated to making your sacred journey as seamless and meaningful as possible.",
+            "With over 8 years of experience, our team of devoted professionals provides personalized care, from visa assistance to premium accommodations near the Haram, ensuring you can focus entirely on your ibadah."
+        ],
+        "features": [
+            {
+                "icon": "CheckCircle",
+                "title": "Licensed & Certified",
+                "description": "Official travel partner"
+            },
+            {
+                "icon": "Heart",
+                "title": "Personal Care",
+                "description": "Dedicated support"
+            },
+            {
+                "icon": "DollarSign",
+                "title": "Best Value",
+                "description": "Transparent pricing"
+            },
+            {
+                "icon": "BookOpen",
+                "title": "Scholarly Guidance",
+                "description": "Knowledgeable guides"
+            }
+        ]
+    },
+    "whyChooseUs": {
+        "sectionTitle": "Why Choose Us",
+        "mainHeading": {
+            "pre": "Trust Your Journey With",
+            "highlight": "Al-Qasim Tours & Travels"
+        },
+        "description": "We don't just arrange trips—we craft sacred experiences with attention to every detail, ensuring your focus remains on worship and reflection.",
+        "reasons": [
+            {
+                "icon": "Shield",
+                "title": "Trusted & Certified",
+                "description": "Fully licensed and recognized by the Ministry of Hajj & Umrah for guaranteed peace of mind."
+            },
+            {
+                "icon": "Users",
+                "title": "Experienced Guides",
+                "description": "Accompanied by knowledgeable scholars to guide you through every ritual correctly."
+            },
+            {
+                "icon": "Clock",
+                "title": "24/7 Support",
+                "description": "Round-the-clock assistance throughout your journey for any needs or emergencies."
+            },
+            {
+                "icon": "Award",
+                "title": "Premium Service",
+                "description": "Top-rated hotels, comfortable transport, and high-quality meals included in all packages."
+            },
+            {
+                "icon": "Heart",
+                "title": "Personal Care",
+                "description": "Personalized attention to ensure your spiritual comfort and satisfaction."
+            }
+        ],
+        "stats": [
+            {
+                "number": "8+",
+                "label": "Years Experience"
+            },
+            {
+                "number": "5000+",
+                "label": "Happy Pilgrims"
+            },
+            {
+                "number": "100%",
+                "label": "Satisfaction Rate"
+            },
+            {
+                "number": "24/7",
+                "label": "Support"
+            }
+        ]
+    },
+    "services": {
+        "sectionTitle": "Our Services",
+        "mainHeading": {
+            "pre": "Everything You Need for a",
+            "highlight": "Blessed Journey"
+        },
+        "description": "From the moment you decide to embark on your pilgrimage until you return home, we provide comprehensive services to ensure a seamless spiritual experience.",
+        "items": [
+            {
+                "icon": "Plane",
+                "title": "Hajj Packages",
+                "description": "Complete Hajj packages with flights, accommodations, and guided rituals for a spiritually fulfilling pilgrimage.",
+                "image": "https://images.news18.com/ibnlive/uploads/2025/07/Hajj-2026-2025-07-8648c488762c4facc41fb011bb6496e4.jpg"
+            },
+            {
+                "icon": "Building2",
+                "title": "Umrah Packages",
+                "description": "Year-round Umrah services with flexible durations and premium stays close to Masjid al-Haram.",
+                "image": "https://t4.ftcdn.net/jpg/16/58/10/87/360_F_1658108717_DsynXmvqmYR4UJ5Ura8GAnh50woK6L8k.jpg"
+            },
+            {
+                "icon": "FileCheck",
+                "title": "Visa Assistance",
+                "description": "Hassle-free visa processing with expert guidance through documentation and requirements.",
+                "image": "https://windsortravelagency.com/wp-content/uploads/2023/04/Visa-assistance-windsor-travel-agency-service.jpg"
+            },
+            {
+                "icon": "Building2",
+                "title": "Premium Hotels",
+                "description": "Hand-picked accommodations near the holy sites, ranging from comfortable to luxury 5-star hotels.",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/733029927.jpg?k=3ed7063970bdcf74067bef295bb3c294c5d16b9d3ca0037d8324efbc4fb031a7&o="
+            },
+            {
+                "icon": "Bus",
+                "title": "Transportation",
+                "description": "Comfortable and reliable transport between airports, hotels, and all sacred sites.",
+                "image": "https://www.alfatehtransport.com/wp-content/uploads/2025/04/Bus-in-a-row-starting-journey-1024x683.jpg"
+            },
+            {
+                "icon": "MapPin",
+                "title": "Ziyarat Tours",
+                "description": "Guided visits to historical Islamic sites in Mecca and Medina with knowledgeable scholars.",
+                "image": "https://supremeairtravels.com/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-13-at-2.29.00-PM-1.webp"
+            }
+        ]
+    },
+    "packages": {
+        "sectionTitle": "Our Packages",
+        "mainHeading": {
+            "pre": "Choose Your",
+            "highlight": "Sacred Path"
+        },
+        "description": "Carefully curated packages aligned with official Hajj & Umrah programs.",
+        "categories": [
+            {
+                "id": "hajj",
+                "label": "Hajj Packages",
+                "items": [
+                    {
+                        "name": "Deluxe Hajj – Shifting",
+                        "duration": "39 Days",
+                        "departure": "28 April 2026",
+                        "price": "₹7,50,000 + TCS",
+                        "zone": "Category B (Premium)",
+                        "featured": false,
+                        "features": [
+                            "Direct Return Flights (BOM–JED–BOM)",
+                            "Shifting Accommodation (Azizia / Rusaifa – 5 to 7 km from Haram)",
+                            "Hotel Stay near Haram in Makkah & Madina (100 Mtr)",
+                            "Buffet Meals – 3 Times Daily (Indian Food)",
+                            "Premium AC Mina Tents (Zone 3)",
+                            "Transportation by Moallim",
+                            "Makkah & Madina Ziyarat",
+                            "Hajj Visa",
+                            "Laundry & Zam Zam (5 Litres)"
+                        ],
+                        "whatsappMessage": "Assalamu Alaikum, I am interested in booking the *Deluxe Hajj – Shifting Package (Hajj 1447H / 2026)*.\n\n📅 Departure: 28 April 2026\n🕋 Duration: 39 Days\n🏨 Shifting accommodation with premium facilities\n✈ Direct BOM–JED–BOM flights\n\nPlease share full details, payment schedule, and booking procedure. JazakAllah Khair."
+                    },
+                    {
+                        "name": "Super Deluxe Hajj – Non Shifting",
+                        "duration": "19 Days",
+                        "departure": "17 May 2026",
+                        "price": "₹6,70,000 + TCS",
+                        "zone": "Category B (Premium)",
+                        "featured": true,
+                        "features": [
+                            "Direct Return Flights (BOM–JED–BOM)",
+                            "Non-Shifting Short Tour",
+                            "Hotel Stay Close to Haram (Makkah & Madina)",
+                            "Premium AC Mina Tents (Zone 3)",
+                            "Buffet Meals – 3 Times Daily",
+                            "Ziyarat in Makkah & Madina",
+                            "Premium Transportation",
+                            "Hajj Visa",
+                            "Hajj Kit & Zam Zam (5 Litres)"
+                        ],
+                        "whatsappMessage": "Assalamu Alaikum, I would like to book the *Super Deluxe Hajj – Non Shifting Package (Hajj 1447H / 2026)*.\n\n📅 Departure: 17 May 2026\n🕋 Duration: 19 Days\n⭐ Premium non-shifting short Hajj tour\n\nKindly send me complete itinerary, hotel details, and booking requirements. Looking forward to your guidance."
+                    }
+                ]
+            },
+            {
+                "id": "umrah",
+                "label": "Umrah Packages",
+                "items": [
+                    {
+                        "name": "Monthly Economy Umrah Package",
+                        "duration": "15 Days",
+                        "departure": "Every Month",
+                        "price": "₹89,999 / ₹99,999",
+                        "zone": "Economy / Semi Deluxe",
+                        "featured": false,
+                        "features": [
+                            "Return Flights (Direct / Via)",
+                            "Hotel Accommodation in Makkah & Madina",
+                            "3 Time Meals (Buffet)",
+                            "5 Litres Zam Zam",
+                            "Makkah & Madina Ziyarat",
+                            "Transportation",
+                            "Umrah Visa",
+                            "Free Laundry"
+                        ],
+                        "whatsappMessage": "Assalamu Alaikum, I am interested in the *Monthly Economy Umrah Package*.\n\n🕋 Duration: 15 Days\n📅 Departure: Any Month\n✈ Flights + Hotels + Meals included\n\nPlease share available dates, hotel details, and total cost. JazakAllah Khair."
+                    },
+                    {
+                        "name": "Ramzan Umrah 2026",
+                        "duration": "15 / 20 / Full Ramzan",
+                        "departure": "Ramzan 2026",
+                        "price": "₹1,20,000 – ₹1,55,000",
+                        "zone": "Special Ramzan Package",
+                        "featured": true,
+                        "features": [
+                            "Ramzan Umrah with Eid in Madina",
+                            "Direct Flights (BOM–JED–BOM)",
+                            "Hotels near Haram (Makkah 600 Mtr, Madina 200 Mtr)",
+                            "3 Time Buffet Meals (Sehri & Iftar included)",
+                            "5 Litres Zam Zam",
+                            "Local Ziyarat",
+                            "Transportation",
+                            "Umrah Visa"
+                        ],
+                        "whatsappMessage": "Assalamu Alaikum, I would like to book the *Ramzan Umrah 2026 Package*.\n\n🕋 Options: 15 Days / 20 Days / Full Ramzan\n🌙 Eid in Madina\n🏨 Hotels close to Haram\n\nKindly share detailed itinerary, availability, and booking process. JazakAllah Khair."
+                    }
+                ]
+            }
+        ],
+        "customPackage": {
+            "text": "Looking for something different?",
+            "linkText": "Let's create your custom package"
+        }
+    },
+    "gallery": {
+        "sectionTitle": "Gallery",
+        "mainHeading": {
+            "pre": "Glimpses of the",
+            "highlight": "Sacred Journey"
+        },
+        "description": "Experience the beauty and spirituality of the holy lands through the eyes of our pilgrims.",
+        "categories": [
+            {
+                "id": "makkah",
+                "label": "Makkah",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "https://i.ytimg.com/vi/-ygLck1TnGA/sddefault.jpg",
+                        "alt": "The Holy Kaaba in Masjid al-Haram",
+                        "title": "Masjid al-Haram"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://image-tc.galaxy.tf/wijpeg-c23cp0thwjlczeh54brstzp04/penta-duplex-suite-1.jpg?width=1920",
+                        "alt": "Masjid al-Haram at Night",
+                        "title": "Spiritual Night"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.youtube.com/embed/eTrUgq_-2wo",
+                        "title": "Hajj Journey Highlights"
+                    },
+                    {
+                        "type": "image",
+                        "src": "/assets/lucid-origin_A_majestic_cinematic_view_of_the_Abraj_Al-Bait_Clock_Tower_in_Makkah_at_dusk_tow-0.jpg",
+                        "alt": "Makkah Clock Tower",
+                        "title": "Abraj Al Bait"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/partner-images/37/e8/d6b98baef7198fde5809274ae667f8607776d0be36113f97a9535b141b2c.jpeg",
+                        "alt": "Makkah tower Hotel",
+                        "title": "Makkah tower Hotel"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://images.pexels.com/photos/24284828/pexels-photo-24284828.jpeg",
+                        "alt": "Makkah tower Hotel",
+                        "title": "Makkah tower Hotel"
+                    }
+                ]
+            },
+            {
+                "id": "madina",
+                "label": "Madina",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "https://pix10.agoda.net/hotelImages/758305/0/5c487f325cc759b261141b698fae4aa6.jpeg?ce=0&s=414x232",
+                        "alt": "Masjid an-Nabawi",
+                        "title": "The Prophet's Mosque"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://images.trvl-media.com/lodging/101000000/100530000/100525400/100525370/cc942c35.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+                        "alt": "Green Dome of Masjid an-Nabawi",
+                        "title": "Al-Makhtara International Hotel"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://static.travelated.com/storage/hotels3/309/309335/property/98184708828.webp?w=3840&webp.quality=75&format=webp&scale=down&mode=crop",
+                        "alt": "Al-Mukhtara Hotel",
+                        "title": "Al-Mukhtara Hotel"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://crmapi.jawartaibah.com/Images/Uploads/1736177217202-AMG-5.jpeg",
+                        "alt": "Al-Mukhtara Hotel",
+                        "title": "Al-Mukhtara Hotel inner View"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
+                        "title": "Madina Short"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://media-cdn.tripadvisor.com/media/photo-s/2d/a2/01/7b/caption.jpg",
+                        "alt": "Al-Mukhtara Hotel Bedroom",
+                        "title": "Al-Mukhtara Hotel Bedroom"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/675169077.jpg?k=3e0610cb83190df801a63766ffbb51677e4a9be63c2476e58b8bff524b9485d1&o=",
+                        "alt": "Green Dome of Masjid an-Nabawi",
+                        "title": "Green Dome"
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/645631195.jpg?k=6c30832a40b8c8ec8cbcac21c47613edef8586d6177d28bac9502b0270273bf6&o=",
+                        "alt": "Islamic Architecture in Madina",
+                        "title": "Madina Architecture"
+                    }
+                ]
+            },
+            {
+                "id": "mina",
+                "label": "Mina Camp",
+                "items": [
+                    {
+                        "type": "image",
+                        "src": "https://theislamicinformation.com/wp-content/uploads/2022/06/camps-in-mina-800x500.jpg",
+                        "alt": "View of Mina Tents",
+                        "title": "City of Tents"
+                    }
+                ]
+            }
+        ]
+    },
+    "testimonials": {
+        "sectionTitle": "Testimonials",
+        "mainHeading": {
+            "pre": "Words From Our",
+            "highlight": "Blessed Pilgrims"
+        },
+        "description": "Hear from those who have entrusted us with their sacred journey.",
+        "items": [
+            {
+                "name": "Ahmed Hassan",
+                "location": "United Kingdom",
+                "rating": 5,
+                "text": "Alhamdulillah, Al-Qasim Tours & Travels made our first Hajj truly blessed. The attention to detail and spiritual guidance was exceptional. They truly care about the pilgrim experience.",
+                "trip": "Hajj 2023"
+            },
+            {
+                "name": "Fatima Ali",
+                "location": "Canada",
+                "rating": 5,
+                "text": "The most seamless Umrah experience. From the moment we landed to our return, everything was perfectly organized. The proximity of our hotel to Haram was a blessing.",
+                "trip": "Umrah 2024"
+            },
+            {
+                "name": "Ibrahim Mohammed",
+                "location": "United States",
+                "rating": 5,
+                "text": "After comparing many agencies, I'm grateful I chose Al-Qasim Tours & Travels. Their scholarly guide enhanced our understanding of every ritual. Truly a transformative experience.",
+                "trip": "Hajj 2024"
+            }
+        ]
+    },
+    "contact": {
+        "sectionTitle": "Contact Us",
+        "mainHeading": {
+            "pre": "Begin Your",
+            "highlight": "Sacred Journey",
+            "post": "Today"
+        },
+        "description": "Have questions about our packages or ready to book? Our team is here to guide you every step of the way.",
+        "popupTitle": "Send Us a Message",
+        "formTitle": "Send Us a Message",
+        "form": {
+            "nameLabel": "Your Name",
+            "namePlaceholder": "Enter your name",
+            "phoneLabel": "Phone Number",
+            "phonePlaceholder": "Your phone number",
+            "packageLabel": "Package Interest",
+            "packagePlaceholder": "Select a package",
+            "packages": [
+                {
+                    "value": "hajj",
+                    "label": "Hajj Packages"
+                },
+                {
+                    "value": "umrah",
+                    "label": "Umrah Packages"
+                },
+                {
+                    "value": "custom",
+                    "label": "Custom Package"
+                }
+            ],
+            "messageLabel": "Your Message",
+            "messagePlaceholder": "Tell us about your requirements...",
+            "submitButton": "Send Message"
+        }
+    },
+    "terms": {
+        "sectionTitle": "Terms and Conditions",
+        "description": "Please read our terms and conditions carefully before booking your journey.",
+        "thankYou": {
+            "arabic": "جزاک اللہ خیرًا",
+            "english": "for using our services"
+        },
+        "categories": [
+            {
+                "id": "hajj",
+                "label": "Hajj Rules",
+                "content": [
+                    {
+                        "title": "Seat Availability & Booking Confirmation",
+                        "text": "Seats are limited and booking will be confirmed only after receipt of the advance payment."
+                    },
+                    {
+                        "title": "Booking & Payments",
+                        "text": "The booking amount is non-refundable and generally non-transferable. Full payment must be completed as per the company schedule."
+                    },
+                    {
+                        "title": "Passport & Documentation",
+                        "text": "Passport must be valid for at least 6 months from the date of travel. All required documents must be submitted within the given timeline."
+                    },
+                    {
+                        "title": "Price Changes",
+                        "text": "Package price is subject to change due to airfare variation, taxes, currency fluctuation, or changes in Saudi government regulations."
+                    },
+                    {
+                        "title": "Visa Regulations",
+                        "text": "Hajj visas are subject to approval by the Ministry of Hajj & Umrah. The company is not responsible for visa delay, rejection, or government-related issues."
+                    },
+                    {
+                        "title": "Cancellations",
+                        "text": "After booking confirmation, cancellation charges will apply as per company policy. No refund will be applicable once services are confirmed."
+                    },
+                    {
+                        "title": "Flights & Schedule",
+                        "text": "The company is not responsible for flight delays, rescheduling, or cancellations due to operational or airline-related reasons."
+                    },
+                    {
+                        "title": "Accommodation & Transport",
+                        "text": "Accommodation, transportation, or other arrangements may be changed due to unavoidable or operational circumstances."
+                    },
+                    {
+                        "title": "Health & Medical Responsibility",
+                        "text": "Medical fitness is the sole responsibility of the pilgrim. Any medical expenses during the journey shall be borne by the pilgrim."
+                    },
+                    {
+                        "title": "Personal Belongings",
+                        "text": "The company will not be responsible for loss of luggage, valuables, or personal belongings."
+                    },
+                    {
+                        "title": "Expenses Not Included",
+                        "text": "Personal expenses such as shopping, extra food, laundry beyond package, and medical costs are not included."
+                    },
+                    {
+                        "title": "Rules & Discipline",
+                        "text": "Pilgrims must strictly follow Saudi laws, Hajj regulations, and group discipline throughout the journey."
+                    },
+                    {
+                        "title": "Government Charges",
+                        "text": "Any additional charges imposed by the Saudi or Indian government shall be paid by the pilgrim."
+                    },
+                    {
+                        "title": "Jurisdiction",
+                        "text": "Any dispute shall be subject to local court jurisdiction only."
+                    }
+                ]
+            },
+            {
+                "id": "umrah",
+                "label": "Umrah Rules",
+                "content": [
+                    {
+                        "title": "Booking Amount",
+                        "text": "A booking amount of ₹20,000 per person is mandatory to confirm the Umrah package."
+                    },
+                    {
+                        "title": "Seat Availability & Confirmation",
+                        "text": "Seats are limited and Umrah booking will be confirmed only after receipt of the advance payment."
+                    },
+                    {
+                        "title": "Passport & Documents",
+                        "text": "Passport must be valid for at least 6 months from the date of travel. Submission of all required documents within the given time is mandatory."
+                    },
+                    {
+                        "title": "Visa & Government Regulations",
+                        "text": "In case of any rule change, suspension, or cancellation by the Saudi government, the company will not be held responsible and the booking amount will be deducted."
+                    },
+                    {
+                        "title": "Refund Policy",
+                        "text": "The booking amount is non-refundable. Unused services once the journey has commenced will not be refunded."
+                    },
+                    {
+                        "title": "Flights & Operational Changes",
+                        "text": "The company is not responsible for flight delays, rescheduling, or operational changes made by airlines."
+                    },
+                    {
+                        "title": "Accommodation & Services",
+                        "text": "Hotel accommodation, transport, or other services may be altered due to unavoidable circumstances."
+                    },
+                    {
+                        "title": "Personal Responsibility",
+                        "text": "Personal expenses, medical costs, and loss of personal belongings are the responsibility of the pilgrim."
+                    },
+                    {
+                        "title": "Group Travel Rules",
+                        "text": "Pilgrims must adhere to the group itinerary and instructions given by the group leader or tour manager."
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "description": "Your trusted partner for a blessed pilgrimage. Experience the journey of a lifetime with expert guidance and premium services.",
+        "quickLinksTitle": "Quick Links",
+        "servicesTitle": "Our Services",
+        "contactTitle": "Contact Info",
+        "topContactNumbers": [
+            {
+                "number": "+91 8369554402",
+                "link": "tel:+918369554402"
+            },
+            {
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "number": "+91 93723 28636",
+                "link": "tel:+919372328636"
+            }
+        ],
+        "copyright": "© 2025 Developed By : alphabetinsight.com",
+        "contactNumbers": [
+            {
+                "type": "phone",
+                "label": "Phone 1",
+                "number": "+91 9987114527",
+                "link": "tel:+919987114527"
+            },
+            {
+                "type": "phone",
+                "label": "Phone 2",
+                "number": "+91 2223734095",
+                "link": "tel:+912223734095"
+            },
+            {
+                "type": "whatsapp",
+                "label": "WhatsApp",
+                "number": "+91 7738959091",
+                "link": "https://wa.me/917738959091"
+            }
+        ],
+        "links": {
+            "quickLinks": [
+                {
+                    "label": "Home",
+                    "href": "#home"
+                },
+                {
+                    "label": "About Us",
+                    "href": "#about"
+                },
+                {
+                    "label": "Services",
+                    "href": "#services"
+                },
+                {
+                    "label": "Packages",
+                    "href": "#packages"
+                },
+                {
+                    "label": "Gallery",
+                    "href": "#gallery"
+                },
+                {
+                    "label": "Contact",
+                    "href": "#contact"
+                }
+            ],
+            "services": [
+                {
+                    "label": "Hajj Packages",
+                    "href": "#packages"
+                },
+                {
+                    "label": "Umrah Packages",
+                    "href": "#packages"
+                },
+                {
+                    "label": "Visa Assistance",
+                    "href": "#services"
+                },
+                {
+                    "label": "Hotel Bookings",
+                    "href": "#services"
+                },
+                {
+                    "label": "Ziyarat Tours",
+                    "href": "#services"
+                }
+            ]
+        }
+    }
+}
