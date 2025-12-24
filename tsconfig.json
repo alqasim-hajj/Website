@@ -6,7 +6,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "resolveJsonModule": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,
