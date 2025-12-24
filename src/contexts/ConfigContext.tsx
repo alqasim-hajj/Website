@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import siteConfig from '@/config/siteConfig.json';
+import siteConfig from '@/config/site-config.json';
 
 type ConfigType = typeof siteConfig;
 
@@ -12,7 +12,7 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
         // Fetch external config on mount to support runtime updates in production
         const fetchConfig = async () => {
             try {
-                const response = await fetch('/siteConfig.json');
+                const response = await fetch('/site-config.json');
                 const contentType = response.headers.get("content-type");
 
                 if (response.ok && contentType && contentType.includes("application/json")) {
