@@ -133,6 +133,20 @@ export default {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.7" },
         },
+        "glow": {
+          "0%, 100%": {
+            "box-shadow": "0 0 15px 2px hsl(var(--gold) / 0.3)",
+            "border-color": "hsl(var(--gold) / 0.4)"
+          },
+          "50%": {
+            "box-shadow": "0 0 30px 8px hsl(var(--gold) / 0.6)",
+            "border-color": "hsl(var(--gold) / 0.8)"
+          }
+        },
+        "oscillate": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-15px)" }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -147,6 +161,8 @@ export default {
         "float-subtle": "float-subtle 4s ease-in-out infinite",
         "shimmer": "shimmer 2s linear infinite",
         "pulse-soft": "pulse-soft 3s ease-in-out infinite",
+        "glow": "glow 3s ease-in-out infinite",
+        "oscillate": "oscillate 4s ease-in-out infinite",
       },
     },
   },

@@ -54,11 +54,11 @@ const Hero = () => {
     >
       {/* Countdown Days Only - Fixed/Sticky on Right (Outside Carousel) */}
       {config.hero.countdown && daysLeft > 0 && (
-        <div className="absolute top-24 md:top-28 lg:top-32 right-4 md:right-8 lg:right-12 z-30 animate-float-subtle">
-          <div className="bg-gradient-to-br from-gold/20 to-gold-light/10 backdrop-blur-md border-2 border-gold/40 rounded-2xl p-4 md:p-5 lg:p-6 shadow-2xl">
-            <div className="text-center">
+        <div className="absolute top-24 md:top-28 lg:top-32 right-4 md:right-8 lg:right-12 z-30 animate-oscillate">
+          <div className="bg-gradient-to-br from-gold/30 to-gold-light/20 backdrop-blur-md border-2 border-gold/40 rounded-2xl p-4 md:p-5 lg:p-6 shadow-[0_0_20px_rgba(201,169,98,0.3)] animate-glow">
+            <div className="text-center animate-float-subtle">
               <div className="flex items-baseline justify-center gap-2">
-                <span className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gold drop-shadow-lg">
+                <span className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gold drop-shadow-[0_0_15px_rgba(201,169,98,0.6)]">
                   {daysLeft}
                 </span>
                 <span className="text-lg md:text-xl lg:text-2xl font-medium text-gold-light">
@@ -124,11 +124,11 @@ const Hero = () => {
                   {/* Countdown Deadline & Supporting Text - Centered */}
                   {config.hero.countdown && daysLeft > 0 && (
                     <div className="mb-5 md:mb-6 lg:mb-7 opacity-0 animate-fade-in-up animation-delay-500">
-                      <div className="bg-gradient-to-br from-gold/15 to-gold-light/5 backdrop-blur-sm border border-gold/30 rounded-xl p-3 md:p-4 max-w-2xl mx-auto">
-                        <p className="text-xs md:text-sm lg:text-base text-primary-foreground font-semibold mb-1.5 md:mb-2">
+                      <div className="bg-gradient-to-br from-gold/25 to-gold-light/10 backdrop-blur-sm border border-gold/40 rounded-xl p-3 md:p-4 max-w-2xl mx-auto shadow-[0_0_15px_rgba(201,169,98,0.2)]">
+                        <p className="text-xs md:text-sm lg:text-base text-primary-foreground font-semibold mb-1.5 md:mb-2 text-gradient-gold">
                           {config.hero.countdown.deadlineText}
                         </p>
-                        <p className="text-[10px] md:text-xs lg:text-sm text-primary-foreground/80 italic">
+                        <p className="text-[10px] md:text-xs lg:text-sm text-primary-foreground/90 italic">
                           {config.hero.countdown.supportingText}
                         </p>
                       </div>
