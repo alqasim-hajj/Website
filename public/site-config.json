@@ -462,11 +462,6 @@
                         "title": "Al-Mukhtara Hotel inner View"
                     },
                     {
-                        "type": "video",
-                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
-                        "title": "Madina Short"
-                    },
-                    {
                         "type": "image",
                         "src": "https://media-cdn.tripadvisor.com/media/photo-s/2d/a2/01/7b/caption.jpg",
                         "alt": "Al-Mukhtara Hotel Bedroom",
@@ -495,6 +490,11 @@
                         "src": "https://theislamicinformation.com/wp-content/uploads/2022/06/camps-in-mina-800x500.jpg",
                         "alt": "View of Mina Tents",
                         "title": "City of Tents"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
+                        "title": "Mina Camp B Category"
                     }
                 ]
             }
