@@ -409,11 +409,6 @@
                         "title": "Spiritual Night"
                     },
                     {
-                        "type": "video",
-                        "src": "https://www.youtube.com/embed/eTrUgq_-2wo",
-                        "title": "Hajj Journey Highlights"
-                    },
-                    {
                         "type": "image",
                         "src": "/assets/lucid-origin_A_majestic_cinematic_view_of_the_Abraj_Al-Bait_Clock_Tower_in_Makkah_at_dusk_tow-0.jpg",
                         "alt": "Makkah Clock Tower",
@@ -447,24 +442,13 @@
                         "type": "image",
                         "src": "https://images.trvl-media.com/lodging/101000000/100530000/100525400/100525370/cc942c35.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
                         "alt": "Green Dome of Masjid an-Nabawi",
-                        "title": "Al-Makhtara International Hotel"
+                        "title": "Al-Mukhtara International Hotel"
                     },
                     {
                         "type": "image",
                         "src": "https://static.travelated.com/storage/hotels3/309/309335/property/98184708828.webp?w=3840&webp.quality=75&format=webp&scale=down&mode=crop",
                         "alt": "Al-Mukhtara Hotel",
                         "title": "Al-Mukhtara Hotel"
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://crmapi.jawartaibah.com/Images/Uploads/1736177217202-AMG-5.jpeg",
-                        "alt": "Al-Mukhtara Hotel",
-                        "title": "Al-Mukhtara Hotel inner View"
-                    },
-                    {
-                        "type": "video",
-                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
-                        "title": "Madina Short"
                     },
                     {
                         "type": "image",
@@ -483,6 +467,12 @@
                         "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/645631195.jpg?k=6c30832a40b8c8ec8cbcac21c47613edef8586d6177d28bac9502b0270273bf6&o=",
                         "alt": "Islamic Architecture in Madina",
                         "title": "Madina Architecture"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://youtube.com/shorts/cLglglSt8fA?si=IAOIu_oWVKuwCwWc",
+                        "alt": "Al Mukhtara Hotel",
+                        "title": "Al Mukhtara Hotel"
                     }
                 ]
             },
@@ -495,6 +485,11 @@
                         "src": "https://theislamicinformation.com/wp-content/uploads/2022/06/camps-in-mina-800x500.jpg",
                         "alt": "View of Mina Tents",
                         "title": "City of Tents"
+                    },
+                    {
+                        "type": "video",
+                        "src": "https://www.youtube.com/shorts/av38xesagmQ",
+                        "title": "Mina Camp B Category"
                     }
                 ]
             }
