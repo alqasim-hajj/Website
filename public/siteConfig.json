@@ -23,6 +23,23 @@
                 }
             ]
         },
+        "socialLinks": [
+            {
+                "platform": "facebook",
+                "url": "https://www.facebook.com/profile.php?id=61552094383684",
+                "label": "Facebook"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/alqasimhajumrah/",
+                "label": "Instagram"
+            },
+            {
+                "platform": "youtube",
+                "url": "https://www.youtube.com/@alqasimhajumrah",
+                "label": "YouTube"
+            }
+        ],
         "whatsapp": {
             "phoneNumber": "+918369554402",
             "defaultMessage": "Hi, I would like to inquire about Hajj/Umrah packages."
@@ -522,13 +539,39 @@
             "post": "Today"
         },
         "description": "Have questions about our packages or ready to book? Our team is here to guide you every step of the way.",
-        "formTitle": "Send Us a Message"
+        "popupTitle": "Send Us a Message",
+        "formTitle": "Send Us a Message",
+        "form": {
+            "nameLabel": "Your Name",
+            "namePlaceholder": "Enter your name",
+            "phoneLabel": "Phone Number",
+            "phonePlaceholder": "Your phone number",
+            "packageLabel": "Package Interest",
+            "packagePlaceholder": "Select a package",
+            "packages": [
+                {
+                    "value": "hajj",
+                    "label": "Hajj Packages"
+                },
+                {
+                    "value": "umrah",
+                    "label": "Umrah Packages"
+                },
+                {
+                    "value": "custom",
+                    "label": "Custom Package"
+                }
+            ],
+            "messageLabel": "Your Message",
+            "messagePlaceholder": "Tell us about your requirements...",
+            "submitButton": "Send Message"
+        }
     },
     "terms": {
         "sectionTitle": "Terms and Conditions",
         "description": "Please read our terms and conditions carefully before booking your journey.",
         "thankYou": {
-            "arabic": "جزاك الله خيرًا",
+            "arabic": "جزاک اللہ خیرًا",
             "english": "for using our services"
         },
         "categories": [
