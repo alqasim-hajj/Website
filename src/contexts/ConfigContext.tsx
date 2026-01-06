@@ -8,7 +8,7 @@ const getDynamicConfig = (baseConfig: ConfigType): ConfigType => {
     const config = JSON.parse(JSON.stringify(baseConfig)); // deep clone
 
     if (hostname === 'hajj2026.in') {
-        config.general.seo.title = 'Hajj 2026 ';
+        config.general.seo.title = 'Hajj 2026 Mumbai| Trusted Hajj & Umrah Travel Agency';
     } else if (hostname === 'alqasimtours.in') {
         config.general.seo.title = 'Alqasim Hajj and Umrah | Hajj & Umrah Packages from Mumbai';
     }
