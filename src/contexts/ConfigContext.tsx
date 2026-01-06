@@ -3,10 +3,23 @@ import siteConfig from '@/config/site-config.json';
 
 type ConfigType = typeof siteConfig;
 
+const getDynamicConfig = (baseConfig: ConfigType): ConfigType => {
+    const hostname = typeof window !== 'undefined' ? window.location.hostname : '';
+    const config = JSON.parse(JSON.stringify(baseConfig)); // deep clone
+
+    if (hostname === 'hajj2026.in') {
+        config.general.seo.title = 'Hajj 2026';
+    } else if (hostname === 'alqasimtours.in') {
+        config.general.seo.title = 'Al Qasim Tours';
+    }
+
+    return config;
+};
+
 const ConfigContext = createContext<ConfigType | null>(null);
 
 export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
-    const [config, setConfig] = useState<ConfigType>(siteConfig);
+    const [config, setConfig] = useState<ConfigType>(() => getDynamicConfig(siteConfig));
 
     useEffect(() => {
         // Fetch external config on mount to support runtime updates in production
@@ -19,7 +32,8 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
                     const text = await response.text();
                     try {
                         const externalConfig = JSON.parse(text);
-                        setConfig(externalConfig);
+                        const dynamicConfig = getDynamicConfig(externalConfig);
+                        setConfig(dynamicConfig);
                     } catch (parseError) {
                         console.error("Failed to parse siteConfig.json as JSON", parseError);
                         console.debug("Received content starting with:", text.substring(0, 50));
