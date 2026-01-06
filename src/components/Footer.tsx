@@ -193,7 +193,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm text-center md:text-left">
-            {config.footer.copyright}
+            © 2025 Developed By : <a href="https://alphabetinsight.com" className="hover:text-gold transition-colors" target="_blank" rel="noopener noreferrer">alphabetinsight.com</a>
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/60 hover:text-gold transition-colors">
